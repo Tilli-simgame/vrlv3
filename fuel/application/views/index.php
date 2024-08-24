@@ -10,6 +10,28 @@ säilöminen, onhan VRL ollut mukana harrastuksen vaiheissa jo kolmatta vuosikym
 <p>
 Toimintaan on helppo tulla mukaan. Ensikertalaisen kannattaa aloittaa <a href="<?php echo base_url('wiki')?>" title="Lue lisää VirtuaaliWikistä" target="_blank">VirtuaaliWikistä</a>, joka avaa monipuolisesti harrastuksen koukeroita ja historiaa. Jos kiinnostuit virtuaalihevosharrastuksesta tai olet jo harrastaja, saat VRL:stä eniten irti rekisteröimällä itsellesi VRL-tunnuksen. VRL-tunnuksen avulla voit jatkaa tutustumista esimerkiksi ilmoittamalla virtuaalitallisi tallilistalle, rekisteröimällä hevosesi tai osallistumalla kilpailuihin. Tutustu myös moniin liiton alaisiin järjestöihin ja yhdistyksiin, jotka järjestävät erilaista toimintaa virtuaalimaailmassa.
 
+<?php
+
+// Include the necessary FuelCMS configuration if needed
+//include('./../config/config.php');
+
+// Define the salted_password_hash function (if not already defined in a loaded class)
+function salted_password_hash($password, $salt)
+{
+    return sha1($password . $salt);
+}
+
+// Set your new password and salt
+$new_password = 'kissakoiraheppa'; // Replace with the new password you want
+$salt = 'test_test_test_test'; // This should match the encryption key or salt
+
+// Generate the hashed password
+$hashed_password = salted_password_hash($new_password, $salt);
+
+// Output the hashed password
+echo 'New hashed password: ' . $hashed_password;
+?>
+
 </p>
 <h2>Ylläpito</h2>
 <p>VRL:n ylläpito on täysin harrastajien omissa käsissä. Sivuston toiminnasta ovat vastuussa <?php foreach ($admins as $key=>$admin){
