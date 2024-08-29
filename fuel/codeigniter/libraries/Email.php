@@ -6,7 +6,7 @@
  *
  * This content is released under the MIT License (MIT)
  *
- * Copyright (c) 2014 - 2019, British Columbia Institute of Technology
+ * Copyright (c) 2019 - 2022, CodeIgniter Foundation
  *
  * Permission is hereby granted, free of charge, to any person obtaining a copy
  * of this software and associated documentation files (the "Software"), to deal
@@ -30,6 +30,7 @@
  * @author	EllisLab Dev Team
  * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
  * @copyright	Copyright (c) 2014 - 2019, British Columbia Institute of Technology (https://bcit.ca/)
+ * @copyright	Copyright (c) 2019 - 2022, CodeIgniter Foundation (https://codeigniter.com/)
  * @license	https://opensource.org/licenses/MIT	MIT License
  * @link	https://codeigniter.com
  * @since	Version 1.0.0
@@ -46,7 +47,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
  * @subpackage	Libraries
  * @category	Libraries
  * @author		EllisLab Dev Team
- * @link		https://codeigniter.com/user_guide/libraries/email.html
+ * @link		https://codeigniter.com/userguide3/libraries/email.html
  */
 class CI_Email {
 
@@ -397,7 +398,7 @@ class CI_Email {
 		$this->initialize($config);
 		$this->_safe_mode = ( ! is_php('5.4') && ini_get('safe_mode'));
 
-		isset(self::$func_overload) OR self::$func_overload = (extension_loaded('mbstring') && ini_get('mbstring.func_overload'));
+		isset(self::$func_overload) OR self::$func_overload = ( ! is_php('8.0') && extension_loaded('mbstring') && @ini_get('mbstring.func_overload'));
 
 		log_message('info', 'Email Class Initialized');
 	}
@@ -1032,7 +1033,6 @@ class CI_Email {
 	 */
 	public function valid_email($email)
 	{
-		/*
 		if (function_exists('idn_to_ascii') && strpos($email, '@'))
 		{
 			list($account, $domain) = explode('@', $email, 2);
@@ -1044,7 +1044,7 @@ class CI_Email {
 			{
 				$email = $account.'@'.$domain;
 			}
-		}*/
+		}
 
 		return (bool) filter_var($email, FILTER_VALIDATE_EMAIL);
 	}
@@ -1857,7 +1857,7 @@ class CI_Email {
 	 * @return	bool
 	 */
 	protected function _validate_email_for_shell(&$email)
-	{/*
+	{
 		if (function_exists('idn_to_ascii') && strpos($email, '@'))
 		{
 			list($account, $domain) = explode('@', $email, 2);
@@ -1868,7 +1868,7 @@ class CI_Email {
 			if ($domain !== FALSE)
 			{
 				$email = $account.'@'.$domain;
-			}*/
+			}
 		}
 
 		return (filter_var($email, FILTER_VALIDATE_EMAIL) === $email && preg_match('#\A[a-z0-9._+-]+@[a-z0-9.-]{1,253}\z#i', $email));

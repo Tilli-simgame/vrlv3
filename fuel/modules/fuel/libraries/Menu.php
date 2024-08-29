@@ -594,11 +594,11 @@ class Menu {
 		}
 
 		$str = '';
-		$act_items = 0;
-		if(isset($this->_active_items)){
-			$act_items = count($this->_active_items);
+		if (is_null($this->_active_items))
+		{
+			$this->_active_items = array();
 		}
-		$num = $act_items -1;
+		$num = count($this->_active_items) -1;
 		if (!empty($this->home_link))
 		{
 			if (is_array($this->home_link))
@@ -1058,7 +1058,7 @@ class Menu {
 			$active_parent = $this->_items[$active]['parent_id'];
 
 			// to normalize so we can do a strict comparison
-			if (ctype_digit($active_parent))
+			if ($active_parent AND ctype_digit($active_parent))
 			{
 				$active_parent = (int) $active_parent;
 			}
