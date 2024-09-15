@@ -2,7 +2,7 @@
 
 // If necessary, modify the path in the require statement below to refer to the
 // location of your Composer autoload.php file.
-require APPPATH . '/vendor/aws/aws-autoloader.php';
+require APPPATH . '/vendor/autoload.php';
 
 use Aws\Ses\SesClient;
 use Aws\Exception\AwsException;
