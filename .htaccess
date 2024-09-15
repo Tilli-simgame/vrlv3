@@ -36,7 +36,7 @@ Options +FollowSymLinks
 	RewriteCond %{SCRIPT_FILENAME} -f
 	RewriteRule "(^|/)\." - [F]
 	
-	php_value date.timezone 'Europe/Helsinki'
+	#php_value date.timezone 'Europe/Helsinki'
 
 	
 </IfModule>
