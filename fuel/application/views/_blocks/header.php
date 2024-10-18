@@ -58,7 +58,7 @@
 		<?php echo js('jqcloud.min.js'); ?>
 		<?php echo css('jqcloud.min.css'); ?>
 		<?php echo css('vrl.css'); ?>
-		<link rel="stylesheet" href="http://tiritomba.net/virtuaali/vrl/style.css" />
+		<link rel="stylesheet" href="<?php echo site_url("assets/css/style.css");?>" />
 	</head>
 <body>
 
