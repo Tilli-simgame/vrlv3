@@ -68,7 +68,7 @@ return FALSE;
     // other than the default.
     $SesClient = new SesClient([
       'version' => '2010-12-01',
-      'region'  => 'eu-west-1'
+      'region'  => 'eu-north-1'
     ]);
 
     // Replace sender@example.com with your "From" address.

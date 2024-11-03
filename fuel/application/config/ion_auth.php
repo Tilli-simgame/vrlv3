@@ -131,7 +131,7 @@ $config['argon2_admin_params']		= [
  | This is an arbitrary (long) value to protect against DOS attack.
  */
 $config['site_title']                 = "Virtuaalihevoset.net";       // Site Title, example.com
-$config['admin_email']                = "marsupieni@gmail.com"; // Admin Email, admin@example.com
+$config['admin_email']                = "vrlvirallinen@gmail.com"; // Admin Email, admin@example.com
 $config['default_group']              = 'members';           // Default group, use name
 $config['admin_group']                = 'admin';             // Default administrators group, use name
 $config['identity']                   = 'tunnus';             /* You can use any unique column in your table as identity column.
