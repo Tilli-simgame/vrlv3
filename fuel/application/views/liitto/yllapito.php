@@ -14,7 +14,7 @@
     
     </p>
   </div>
-   <div class="panel-footer">virtuaalinenratsastajainliitto(a)gmail.com</div>
+   <div class="panel-footer">vrlvirallinen@gmail.com</div>
 </div>
 
 <div class="panel panel-default yllapito">
