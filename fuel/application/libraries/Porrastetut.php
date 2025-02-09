@@ -29,8 +29,8 @@ class Porrastetut
         5=>"Vt5: VaB / ERJ: 110cm / MEJ: 90cm / CIC2",
         6=>"Vt6: VaA / ERJ: 120cm / MEJ: 100cm / CIC3",
         7=>"Vt7: PSG / ERJ: 130cm / MEJ: 110cm / CIC4 / Vaativa valjakko",
-        8=>"Vt8: Int I / ERJ: 140cm / MEJ: 120cm",
-        9=>"Vt9: Int II / ERJ: 150cm / MEJ: 130CM / Vaikea valjakko",
+        8=>"Vt8: Int I / ERJ: 140cm / MEJ: 120cm / CIC5",
+        9=>"Vt9: Int II / ERJ: 150cm / MEJ: 130cm / Vaikea valjakko",
         10=>"Vt10: GP / ERJ: 160cm",
         
         
