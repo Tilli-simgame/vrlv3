@@ -81,8 +81,6 @@
 <h3><a name="rotu"></a>2.2. Rotu ja sukupuoli</h3>
 <p>Hevosen sivulta tulee löytyä maininta hevosen rodusta ja sukupuolesta.</p>
 
-<p>Hevosen sivulta tulee löytyä maininta hevosen rodusta ja sukupuolesta.</p>
-
 <p>Huomaathan, että hevosen rotua tai sukupuolta ei voi itse vaihtaa jälkikäteen (pois lukien orien ruunaus) vaan muutos voidaan tehdä tuen kautta.</p>
 
 <h3><a name="syntymaaika"></a>2.3. Syntymäaika</h3>
