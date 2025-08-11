@@ -36,7 +36,7 @@
 </ol>
 
 
-<h2>1. Ennen rekisteröintiä</h2>
+<h2>1. Yleistä hevosrekisteristä</h2>
 
 <h3><a name="lomake"></a>1.1. Rekisteröintilomakkeen täyttäminen ja käsittely</h3>
 
@@ -97,7 +97,7 @@
 
 <h2>3. Vapaaehtoiset tiedot</h2>
 
-<h3><a name="vari"></a>3.1. Väri ja säkäkorkeus</h3>
+<h3><a name="vari"></a>3.1. Väri, säkäkorkeus ja syntymämaa</h3>
 <p>Hevosen värin ja säkäkorkeuden sekä syntymämaan lisääminen rekisterin tietoihin on vapaaehtoista (pl. porrastetuissa kilpailevat hevoset joilta säkäkorkeus vaaditaan). Suosittelemme kuitenkin rodun rotumääritelmään tutustumista ennen hevosen rekisteröintiä, tavallisesti niistä löytyy kriteerit kullakin rodulla sallittuihin väreihin ja tyypilliseen kokoon sekä joissakin tapauksissa syntymä maahan. <b>Ilmoita hevosen säkäkorkeus aikuisena.</b></p>
 
 <h3><a name="kotitalli"></a>3.2. Kotitalli</h3>
