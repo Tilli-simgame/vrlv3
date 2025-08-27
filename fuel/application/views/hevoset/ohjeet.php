@@ -1,6 +1,6 @@
 <h1>Hevosen rekisteröintiohjeet</h1>
 
-<p>Jos sinulla on kysyttävää tai ehdotuksia rekisteröintiasioita koskien, ota yhteyttä <a href="<?php echo base_url('tuki')?>" title="Ota yhteyttä tukeen" target="_blank">tukeen</a>.</p>
+<p>Jos sinulla on kysyttävää tai ehdotuksia rekisteröintiasioita koskien, ota yhteyttä <a href="<?php echo base_url('liitto/tiedotus/728')?>" title="Ota yhteyttä tukeen" target="_blank">tukeen</a>.</p>
 
 
 <ol class="inner ohjeet">
@@ -42,7 +42,7 @@
 <p>Vain VRL-tunnuksen rekisteröineet jäsenet voivat rekisteröidä hevosiaan virtuaalihevosrekisteriin. Rekisteri löytyy kohdasta Virtuaalihevoset > <a href="<?php echo base_url('virtuaalihevoset/rekisterointi')?>" title="Rekisteröi virtuaalihevonen">Hevosten rekisteröinti</a>.
 </p>
 
-<p>Hevoset lisätään automaattisesti hevosrekisteriin. Jos huomaat tehneesi virheen tai haluat perua rekisteröinnin, voit poistaa hevosen rekisteristä vuorokauden (24 h) kuluessa rekisteröinnistä hevosen omasta profiilista. Vuorokauden jälkeen pystyt muokkaamaan hevosen omistajatietoja, ruunaamaan orin, muuttamaan sen säkäkorkeutta ja väriä sekä lisäämään sille puuttuvia tietoja. Muiden tietojen muutokset onnistuvat ainoastaan <a href="<?php echo base_url('tuki')?>" title="Ota yhteyttä tukeen" target="_blank">tuen</a> kautta. </p>
+<p>Hevoset lisätään automaattisesti hevosrekisteriin. Jos huomaat tehneesi virheen tai haluat perua rekisteröinnin, voit poistaa hevosen rekisteristä vuorokauden (24 h) kuluessa rekisteröinnistä hevosen omasta profiilista. Vuorokauden jälkeen pystyt muokkaamaan hevosen omistajatietoja, ruunaamaan orin, muuttamaan sen säkäkorkeutta ja väriä sekä lisäämään sille puuttuvia tietoja. Muiden tietojen muutokset onnistuvat ainoastaan <a href="<?php echo base_url('liitto/tiedotus/728')?>" title="Ota yhteyttä tukeen" target="_blank">tuen</a> kautta. </p>
 
 
 <h3><a name="sivut"></a>1.2. Hevosen sivut</h3>
@@ -50,6 +50,8 @@
 <p>Hevosella tulee olla oma verkkosivu, josta löytyvät selkeästi suomen kielellä näissä ohjeissa mainitut pakolliset tiedot (nimi, rotu, sukupuoli, syntymäaika, omistaja) vaaditulla tavalla. Lisäksi hevosen sivuilla tulee olla maininta virtuaalisuudesta! Lue kohta: <a href="#teksti">Virtuaalihevonen-merkintä</a>.</p>
 
 <p>Mikäli hevosen tiedot löytyvät joukkosivulta, tulee osoitteen viedä suoraan hevosen kohdalle (ankkurilinkki).</p>
+
+<p>Mikäli hevosen sivut on salasanasuojattu, tulee käyttäjätunnuksen ja salasanan olla: user (tunnus) ja arabians (salasana). Jos nämä eivät toimi, hevosen sivut poistetaan rekisteristä ilman erillistä varoitusta.</p>p>
 
 <p><b>Huomaathan, että rekisterissä ja hevosen sivulla ilmoitettujen tietojen on täsmättävä täydellisesti.</b></p>
 
@@ -97,7 +99,7 @@
 <h3><a name="vari"></a>3.1. Väri ja säkäkorkeus</h3>
 <p>Jos hevosen väri ja säkäkorkeus on ilmoitettu rekisteriin, tulee näiden vastata hevosen sivulla olevia tietoja. Suosittelemme rodun rotumääritelmään tutustumista ennen hevosen rekisteröintiä. <strong>Ilmoita hevosen säkäkorkeus aikuisena</strong>.</p>
 <p>Mikäli hevosen rekisteriprofiilissa esiintyy räikeitä epärealistisuuksia, kuten esimerkiksi säkäkorkeudeltaan 150 cm shetlanninponi tai suomenhevonen, jonka vanhemmat ovat arabianhevonen ja suomenhevonen, otetaan hevosen rekisteriin lisänneeseen henkilöön yhteyttä, jotta virheelliset tiedot saadaan oikaistua.</i></p>
-<p>Jos huomaat itse hevosesi tiedoissa virheen, ota yhteys <a href="<?php echo base_url('tuki')?>" title="Ota yhteyttä tukeen" target="_blank">tukeen</a>.</p>
+<p>Jos huomaat itse hevosesi tiedoissa virheen, ota yhteys <a href="<?php echo base_url('liitto/tiedotus/728')?>" title="Ota yhteyttä tukeen" target="_blank">tukeen</a>.</p>
 
 <h3><a name="ikaantyminen"></a>3.2. Ikääntyminen</h3>
 <p>Ikääntyminen on pakollinen vain porrastetuissa kilpailuissa kilpailevilla hevosilla. Voit ilmoittaa kaikki tai osan syntymäpäivistä myös rekisteröinnin jälkeen. Täytä syntymäpäivät rekisteröintilomakkeelle muodossa pp.kk.vvvv, esimerkiksi 01.10.2021.</p>
