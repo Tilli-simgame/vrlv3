@@ -1,4 +1,4 @@
-<?php 
+<?php
 /*
 |--------------------------------------------------------------------------
 | Environments
@@ -14,5 +14,6 @@
 */
 
 $environments = array(
-				'development' => array('localhost*', '192.*', '*.dev', 'local.*'),
-				);
+  'development' => array('localhost*', '192.*', '*.dev', 'local.*'),
+  'production' => array('virtuaalihevoset.net', 'www.virtuaalihevoset.net', '13.*')
+);

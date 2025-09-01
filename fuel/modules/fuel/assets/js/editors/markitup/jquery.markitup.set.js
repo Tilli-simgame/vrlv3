@@ -485,11 +485,11 @@ myMarkItUpSettings.displayLinkEditWindow = function(selected, attrs, callback){
 
 				$selected = $('#selected', iframeContext);
 				var selectedUrl = ($input.length && $input.val().length) ? $input.val() : $urlSelect.val();
-				var isHTTP = (selectedUrl.match(/^\w+:\/\//)) ? true : false;
+				var isHTTP = (((selectedUrl.match(/^\w+:\/\//))) || ((selectedUrl.match(/^mailto:/)))) ? true : false;
 				var replace = '<a href="';
 
 				if (selectedUrl.substr(0, 1) != '{') {
-					if (selectedUrl.match(/\.pdf$/)){
+					if (selectedUrl.match(/\.pdf$/) && !isHTTP){
 						replace += self.parserLeftDelimiter() + 'pdf_path(\'' + selectedUrl + '\')' + self.parserRightDelimiter();
 					} else {
 						if (!isHTTP) replace += self.parserLeftDelimiter() + 'site_url(\'';
